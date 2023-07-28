@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("../fonts/GraphikLCG-Bold.woff") format("woff");
+  src: url("../fonts/GraphikLCG-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body { */
+/* font-family: "Noto Sans", sans-serif; */
+/* } */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 5rem;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+  margin-left: 352px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  flex-basis: 100%;
+  list-style: none;
+  padding: 0;
+  padding-left: 3.125rem;
+  margin-right: 355px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+.header-nav-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 14px;
+
+  font-family: Graphik LCG;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header-nav-link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 60%;
+  text-decoration: none;
+  font-size: 1rem;
+  color: inherit;
+}
+.header-nav-link::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  bottom: -1px;
+  background-color: #fff;
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+.header-nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+.container {
+  width: 1216px;
+  margin: auto;
+  /* padding-left: 18px; */
+}
+.header {
+  /* padding-top: 2.875rem; */
+  height: 960px;
+}
+
+.header-image {
+  background-image: url("/img/header-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 0;
+}
+.header-image::before {
+  content: "";
+  position: absolute;
+  background: #2a6cea;
+  opacity: 0.8;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.header-content {
+  margin-bottom: 1.125rem;
+  padding-top: 19.375rem;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header-title {
+  max-width: 67.5rem;
+  font-family: "Graphik LCG";
+  font-size: 3.25rem;
+  line-height: 120%;
+  margin: 1.3125rem 0;
+  letter-spacing: 0.75px;
+  word-spacing: -1.6px;
+  text-align: center;
+  margin-bottom: 18px;
+  cursor: default;
+}
+.header-subtitle {
+  font-family: "Graphik LCG";
+  line-height: 32px;
+  letter-spacing: 0em;
+  max-width: 45rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  margin-bottom: 92px;
+  height: 100%;
+  cursor: default;
+}
+
+.button {
+  border-radius: 4px;
+  background: #eceff2;
+
+  border: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 251px;
+  height: 64px;
+}
+.button-text {
+  font-family: Graphik LCG;
+  font-size: 1.25rem;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  font-weight: 600;
+  color: #191c1f;
+  padding: 20px, 40px, 20px, 40px;
+}
+
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  padding-top: 4.1rem;
+  position: relative;
+  gap: 0px;
+  margin-bottom: 80px;
+}
+.section-guide-title {
+  width: 338px;
+  font-family: Graphik LCG;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 61px;
+  cursor: default;
+}
+.guide-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
+  gap: 32px;
+  cursor: default;
+}
+.guide-item {
+  width: 280px;
+  height: 164px;
+}
+.guide-icon {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 16px;
+}
+.guide-title {
+  font-family: Graphik LCG;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.guide-text {
+  width: 280px;
+  height: 48px;
+  font-family: Graphik LCG;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5e646a;
+}
