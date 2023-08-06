@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 16px;
 }
+
 @font-face {
   font-family: "Graphik LCG";
   src: url("../fonts/GraphikLCG-Bold.woff") format("woff");
@@ -12,13 +14,14 @@ html {
   font-style: normal;
 }
 
-/* body { */
-/* font-family: "Noto Sans", sans-serif; */
-/* } */
+body {
+  font-family: "Noto Sans", sans-serif;
+}
 
 .mobile-menu {
   display: none;
 }
+
 .navbar {
   display: flex;
   align-items: center;
@@ -38,6 +41,7 @@ html {
   height: 100%;
   margin-left: 22rem;
 }
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -48,15 +52,15 @@ html {
   padding: 0;
   padding-left: 2.125rem;
   margin-right: 21.3rem;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-bottom: 0;
+  margin-top: 0;
 }
+
 .header-nav-item {
   display: flex;
   align-items: center;
   height: 100%;
   padding: 0.8rem;
-
   font-family: Graphik LCG;
   font-size: 1rem;
   font-weight: 400;
@@ -64,6 +68,7 @@ html {
   letter-spacing: 0em;
   text-align: left;
 }
+
 .header-nav-link {
   position: relative;
   display: flex;
@@ -73,6 +78,7 @@ html {
   font-size: 1rem;
   color: inherit;
 }
+
 .header-nav-link::after {
   content: "";
   width: 100%;
@@ -83,15 +89,16 @@ html {
   transform: scaleX(0);
   transition: transform 0.2s;
 }
+
 .header-nav-link:hover::after {
   transform: scaleX(1);
 }
 
 .container {
   width: 76rem;
-
   margin: auto;
 }
+
 .header {
   height: 60rem;
 }
@@ -104,6 +111,7 @@ html {
   position: relative;
   z-index: 0;
 }
+
 .header-image::before {
   content: "";
   position: absolute;
@@ -140,6 +148,7 @@ html {
   margin-bottom: 0.125rem;
   cursor: default;
 }
+
 .header-subtitle {
   font-family: "Graphik LCG";
   line-height: 2rem;
@@ -156,13 +165,13 @@ html {
 .button {
   border-radius: 4px;
   background: #eceff2;
-
   border: none;
   display: inline-block;
   cursor: pointer;
   width: 15.6875rem;
   height: 4rem;
 }
+
 .button-text {
   font-family: Graphik LCG;
   font-size: 1.25rem;
@@ -171,7 +180,6 @@ html {
   text-align: center;
   font-weight: 600;
   color: #191c1f;
-  padding: 20px, 40px, 20px, 40px;
 }
 
 .guide {
@@ -182,9 +190,10 @@ html {
   padding: 0;
   padding-top: 5.1rem;
   position: relative;
-  gap: 0px;
+  gap: 0;
   margin-bottom: 34px;
 }
+
 .section-guide-title {
   width: 21.125rem;
   font-family: Graphik LCG;
@@ -196,23 +205,27 @@ html {
   margin-bottom: 2.5rem;
   cursor: default;
 }
+
 .guide-list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding: 0px;
+  padding: 0;
   gap: 2rem;
   cursor: default;
 }
+
 .guide-item {
   width: 17.5rem;
   height: 10.25rem;
 }
+
 .guide-icon {
   width: 4.5rem;
   height: 4.5rem;
   margin-bottom: 1rem;
 }
+
 .guide-title {
   font-family: Graphik LCG;
   font-size: 1rem;
@@ -220,9 +233,10 @@ html {
   line-height: 1.5rem;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 0.25rem;
 }
+
 .guide-text {
   width: 17.5rem;
   height: 3rem;
@@ -233,14 +247,12 @@ html {
   letter-spacing: 0em;
   text-align: left;
   color: #5e646a;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .thirdBlock {
   height: 37rem;
   position: relative;
-
-  /* margin-bottom: 11.4375rem; */
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -248,25 +260,27 @@ html {
   align-content: center;
   flex-wrap: wrap;
 }
+
 .thirdBlock-photo-1 {
   position: absolute;
-  right: 0px;
+  right: 0;
   width: 37rem;
   height: 28rem;
   z-index: 2;
   object-fit: cover;
   margin-bottom: 5rem;
 }
+
 .thirdBlock-photo-2 {
   position: absolute;
-  right: 0px;
+  right: 0;
   width: 37rem;
   height: 28rem;
   z-index: 1;
   margin-bottom: 5rem;
-
   object-fit: cover;
 }
+
 .thirdBlock-contant-wrapper {
   display: flex;
   justify-content: flex-start;
@@ -275,9 +289,11 @@ html {
   gap: 1.125rem;
   padding-bottom: 21rem;
 }
+
 .thirdBlock-contant {
   max-width: 45rem;
 }
+
 .thirdBlock-title {
   font-family: Graphik LCG;
   font-size: 2rem;
@@ -287,6 +303,7 @@ html {
   text-align: left;
   margin-bottom: 23px;
 }
+
 .thirdBlock-text {
   font-family: Graphik LCG;
   font-size: 1rem;
@@ -309,7 +326,7 @@ html {
 
 .reviews-title {
   padding-top: 1.49rem;
-  margin-top: 0px;
+  margin-top: 0;
   margin-bottom: 2rem;
   text-align: center;
   font-family: Graphik LCG;
@@ -323,6 +340,7 @@ html {
 .contant {
   height: 564px;
 }
+
 .swiper {
   width: 100%;
   height: 383px;
@@ -359,6 +377,7 @@ html {
   cursor: pointer;
   box-shadow: 0px 5px 24px 0px #0000001a;
 }
+
 .element-content {
   display: flex;
   gap: 16px;
@@ -370,6 +389,7 @@ html {
   flex-direction: column;
   margin-bottom: 1.25rem;
 }
+
 .reviews-slide-fio {
   font-family: Graphik LCG;
   font-size: 1rem;
@@ -381,6 +401,7 @@ html {
   width: 14.8125rem;
   margin-bottom: 0.25rem;
 }
+
 .reviews-slide-city {
   font-family: Graphik LCG;
   font-size: 0.75rem;
@@ -391,6 +412,7 @@ html {
   margin: 0;
   color: #5e646a;
 }
+
 .reviews-slide-image {
   width: 32px;
   height: 32px;
@@ -422,6 +444,7 @@ html {
   justify-content: center;
   color: var(--swiper-navigation-color, var(--swiper-theme-color));
 }
+
 .swiper-button-next {
   position: absolute;
   top: var(--swiper-navigation-top-offset, 48%);
@@ -447,6 +470,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .footer-text {
   font-family: Graphik LCG;
   font-size: 1.125rem;
@@ -456,6 +480,7 @@ html {
   text-align: center;
   color: #191c1f;
 }
+
 @media (max-width: 1919px) {
   .swiper-button-prev {
     position: absolute;
@@ -470,6 +495,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -484,6 +510,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1810px) {
   .swiper-button-prev {
     position: absolute;
@@ -498,6 +525,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -512,6 +540,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1726px) {
   .swiper-button-prev {
     position: absolute;
@@ -526,6 +555,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 49%);
@@ -540,6 +570,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1610px) {
   .swiper-button-prev {
     position: absolute;
@@ -554,6 +585,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 49%);
@@ -568,6 +600,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1490px) {
   .swiper-button-prev {
     position: absolute;
@@ -582,6 +615,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -596,6 +630,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1477px) {
   .swiper-button-prev {
     position: absolute;
@@ -610,6 +645,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -646,11 +682,13 @@ html {
     width: 17.5rem;
     height: 10.25rem;
   }
+
   .guide-icon {
     width: 4.5rem;
     height: 4.5rem;
     margin-bottom: 1rem;
   }
+
   .guide-title {
     font-family: Graphik LCG;
     font-size: 1rem;
@@ -658,9 +696,10 @@ html {
     line-height: 1.5rem;
     letter-spacing: 0em;
     text-align: left;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 0.25rem;
   }
+
   .guide-text {
     width: 17.5rem;
     height: 3rem;
@@ -672,6 +711,7 @@ html {
     text-align: left;
     color: #5e646a;
   }
+
   .mySwiper {
     padding-top: 7px;
     padding-left: 13px;
@@ -679,6 +719,7 @@ html {
     height: 383px;
   }
 }
+
 @media (max-width: 1290px) {
   .swiper-button-prev {
     position: absolute;
@@ -693,6 +734,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -707,50 +749,8 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
-@media (max-width: 1250px) {
-  /* html {
-    font-size: 12px;
-  }
 
-  .header-content {
-    margin-bottom: 1.125rem;
-    padding-top: 19.375rem;
-    position: relative;
-    z-index: 1;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .section-guide-title {
-    width: 21.125rem;
-    font-family: Graphik LCG;
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 3.5rem;
-    letter-spacing: 0em;
-    text-align: center;
-    margin-bottom: 3.8125rem;
-    cursor: default;
-  } */
-}
 @media (max-width: 1200px) {
-  /* html {
-    font-size: 8px;
-  }
-
-  .header-content {
-    margin-bottom: 1.125rem;
-    padding-top: 19.375rem;
-    position: relative;
-    z-index: 1;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  } */
   .swiper-button-prev {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -764,6 +764,7 @@ html {
     justify-content: center;
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
+
   .swiper-button-next {
     position: absolute;
     top: var(--swiper-navigation-top-offset, 48%);
@@ -778,15 +779,18 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1170px) {
   .swiper-button-next:after,
   .swiper-rtl .swiper-button-prev:after {
     content: "none";
   }
+
   .swiper-button-prev:after,
   .swiper-rtl .swiper-button-next:after {
     content: "none";
   }
+
   .swiper-button-next {
     display: none;
     position: absolute;
@@ -802,6 +806,7 @@ html {
     color: var(--swiper-navigation-color, var(--swiper-theme-color));
   }
 }
+
 @media (max-width: 1185px) {
   html {
     font-size: 13px;
@@ -819,6 +824,7 @@ html {
     flex-direction: column;
   }
 }
+
 @media (max-width: 1050px) {
   html {
     font-size: 12px;
@@ -836,6 +842,7 @@ html {
     flex-direction: column;
   }
 }
+
 @media (max-width: 1050px) {
   html {
     font-size: 12px;
@@ -853,10 +860,12 @@ html {
     flex-direction: column;
   }
 }
+
 @media (max-width: 960px) {
   html {
     font-size: 10px;
   }
+
   .header-content {
     margin-bottom: 1.125rem;
     padding-top: 19.375rem;
@@ -868,6 +877,7 @@ html {
     align-items: center;
     flex-direction: column;
   }
+
   .mySwiper {
     width: 92%;
     margin-left: 0px !important;
@@ -875,6 +885,7 @@ html {
     padding: 7px;
     height: 383px;
   }
+
   .reviews-slide-item {
     height: 71%;
     padding: 0px 22px 62px 22px;
@@ -882,6 +893,7 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .footer {
     position: relative;
     width: 100%;
@@ -894,10 +906,12 @@ html {
     align-items: center;
   }
 }
+
 @media (max-width: 850px) {
   html {
     font-size: 9px;
   }
+
   .header-content {
     margin-bottom: 1.125rem;
     padding-top: 19.375rem;
@@ -909,6 +923,7 @@ html {
     align-items: center;
     flex-direction: column;
   }
+
   .mySwiper {
     width: 92%;
     margin-left: 0px !important;
@@ -916,6 +931,7 @@ html {
     padding: 7px;
     height: 300px;
   }
+
   .reviews-slide-item {
     height: 81%;
     padding: 0px 22px 62px 22px;
@@ -923,6 +939,7 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .footer {
     position: relative;
     width: 100%;
@@ -935,10 +952,12 @@ html {
     align-items: center;
   }
 }
+
 @media (max-width: 768px) {
   html {
     font-size: 8px;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -947,9 +966,11 @@ html {
     margin-left: 2rem;
     margin-top: 5rem;
   }
+
   .header-nav {
     display: none;
   }
+
   .mobile-menu-toggle {
     position: absolute;
     width: 6rem;
@@ -961,6 +982,7 @@ html {
     right: 4px;
     top: 24px;
   }
+
   .close-menu > .mobile-menu-line {
     background-color: #080808;
   }
@@ -972,16 +994,18 @@ html {
     height: 100%;
     margin-left: 2rem;
   }
+
   .mobile-menu-line {
     height: 1.5px;
     background-color: #fff;
     width: 100%;
     transition: transform 0.4s;
   }
+
   .mobile-menu {
     position: fixed;
     top: 0;
-    right: 0px;
+    right: 0;
     bottom: 0;
     width: 375px;
     height: 667px;
@@ -992,9 +1016,11 @@ html {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
   .mobile-menu.is-open {
     display: block;
   }
+
   .mobile-menu-nav {
     list-style: none;
     margin-left: -11px;
@@ -1002,9 +1028,11 @@ html {
     padding-bottom: 26px;
     border-bottom: 1px solid #eceff2;
   }
+
   .mobile-menu-nav-item {
     padding-bottom: 2rem;
   }
+
   .mobile-menu-link {
     text-decoration: none;
     font-weight: 700;
@@ -1012,12 +1040,14 @@ html {
     line-height: 160%;
     color: #292d33;
   }
+
   .mobile-submenu {
     list-style: none;
     padding: 0;
     padding-left: 0.5rem;
     margin-top: 2rem;
   }
+
   .mobile-submenu-item {
     display: flex;
     justify-content: space-between;
@@ -1026,14 +1056,17 @@ html {
     margin-bottom: 17px;
     cursor: pointer;
   }
+
   .mobile-submenu-item:nth-child(2) {
     border-bottom: 1px solid #eceff2;
     margin-top: 35px;
     margin-bottom: 33px;
   }
+
   .mobile-submenu-item:nth-child(4) {
     margin-top: 35px;
   }
+
   .mobile-submenu-link {
     text-decoration: none;
     color: #83898f;
@@ -1048,6 +1081,7 @@ html {
     letter-spacing: 0em;
     text-align: left;
   }
+
   .menu-arrow {
     width: 24px;
     height: 24px;
@@ -1059,10 +1093,11 @@ html {
     margin-top: 1px;
     max-width: 24px;
   }
+
   .close-menu .mobile-menu-line:nth-child(2) {
     transform: rotate(-46deg) translateY(-10px);
     margin-left: 2px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     max-width: 24px;
   }
 
@@ -1070,6 +1105,7 @@ html {
     width: 91rem;
     margin: auto;
   }
+
   .header {
     height: 717px;
     width: 100%;
@@ -1083,6 +1119,7 @@ html {
     z-index: 0;
     height: 1023px;
   }
+
   .header-image::before {
     content: "";
     position: absolute;
@@ -1106,19 +1143,20 @@ html {
     align-items: center;
     flex-direction: column;
   }
+
   .header-title {
     max-width: 55.5rem;
     font-family: "Graphik LCG";
     font-size: 4rem;
     line-height: 120%;
     margin-top: 4px;
-
     letter-spacing: 0.75px;
     word-spacing: -1.6px;
     text-align: center;
     margin-bottom: 1.15rem;
     cursor: default;
   }
+
   .header-subtitle {
     font-family: "Graphik LCG";
     line-height: 2rem;
@@ -1141,6 +1179,7 @@ html {
     width: 31.6875rem;
     height: 8rem;
   }
+
   .button-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -1151,10 +1190,12 @@ html {
     color: #191c1f;
     padding: 20px, 40px, 20px, 40px;
   }
+
   .guide {
     padding-top: 9.1rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
+
   .section-guide-title {
     width: 44.125rem;
     font-family: Graphik LCG;
@@ -1166,28 +1207,29 @@ html {
     margin-bottom: 3.8125rem;
     cursor: default;
   }
+
   .guide-list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     column-gap: 29rem;
-
     cursor: default;
   }
   .guide-item {
     display: flex;
-
     width: 17.5rem;
     height: 10.25rem;
   }
+
   .guide-icon {
     width: 8rem;
     height: 11.5rem;
     margin-bottom: 1rem;
   }
+
   .guide-title {
     min-width: 263px;
     font-family: Graphik LCG;
@@ -1200,12 +1242,15 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-item:nth-child(3) {
     margin-top: 12px;
   }
+
   .guide-item:nth-child(4) {
     margin-top: 12px;
   }
+
   .guide-text {
     position: absolute;
     width: 34.5rem;
@@ -1224,7 +1269,6 @@ html {
   .thirdBlock {
     height: 37rem;
     position: relative;
-
     margin-bottom: 14.4375rem;
     display: flex;
     flex-direction: row-reverse;
@@ -1233,10 +1277,11 @@ html {
     align-content: center;
     flex-wrap: wrap;
   }
+
   .thirdBlock-photo-1 {
     position: absolute;
     margin-top: 120px;
-    right: 0px;
+    right: 0;
     width: 44rem;
     height: 33rem;
     z-index: 2;
@@ -1252,6 +1297,7 @@ html {
     z-index: 1;
     object-fit: cover;
   }
+
   .thirdBlock-contant-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -1260,9 +1306,11 @@ html {
     gap: 1.125rem;
     padding-bottom: 21rem;
   }
+
   .thirdBlock-contant {
     max-width: 45rem;
   }
+
   .thirdBlock-title {
     width: 351px;
     margin-top: 8px;
@@ -1273,6 +1321,7 @@ html {
     text-align: left;
     margin-bottom: 18px;
   }
+
   .thirdBlock-text {
     font-family: Graphik LCG;
     font-size: 2rem;
@@ -1284,6 +1333,7 @@ html {
     color: #5e646a;
     margin-bottom: 28px;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -1292,9 +1342,10 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-title {
     padding-top: 1.49rem;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5rem;
     text-align: center;
     font-family: Graphik LCG;
@@ -1305,9 +1356,11 @@ html {
     text-align: center;
     padding-right: 20px;
   }
+
   .swiper {
     height: 383px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -1315,6 +1368,7 @@ html {
     padding: 7px;
     height: 397px;
   }
+
   .reviews-slide-item {
     margin-top: 0;
     height: 83%;
@@ -1323,6 +1377,7 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .element-content {
     margin-top: -72px;
     margin-bottom: 17px;
@@ -1337,6 +1392,7 @@ html {
     flex-direction: column;
     margin-bottom: 1.25rem;
   }
+
   .reviews-slide-fio {
     margin-top: 21px;
     font-family: Graphik LCG;
@@ -1349,6 +1405,7 @@ html {
     width: 25.8125rem;
     margin-bottom: 8px;
   }
+
   .reviews-slide-city {
     font-family: Graphik LCG;
     font-size: 1.5rem;
@@ -1359,6 +1416,7 @@ html {
     margin: 0;
     color: #5e646a;
   }
+
   .reviews-slide-image {
     margin-top: 16px;
     width: 44px;
@@ -1388,6 +1446,7 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .footer-text {
     font-family: Graphik LCG;
     font-size: 2.24rem;
@@ -1398,10 +1457,12 @@ html {
     color: #191c1f;
   }
 }
+
 @media (max-width: 767px) {
   html {
     font-size: 6px;
   }
+
   .logo {
     display: flex;
     align-items: center;
@@ -1410,9 +1471,11 @@ html {
     margin-left: 2rem;
     margin-top: 5rem;
   }
+
   .header-nav {
     display: none;
   }
+
   .mobile-menu-toggle {
     position: absolute;
     width: 6rem;
@@ -1449,6 +1512,7 @@ html {
     z-index: 0;
     height: 583px;
   }
+
   .header-image::before {
     content: "";
     position: absolute;
@@ -1472,6 +1536,7 @@ html {
     align-items: center;
     flex-direction: column;
   }
+
   .header-title {
     max-width: 82.5rem;
     font-family: "Graphik LCG";
@@ -1484,6 +1549,7 @@ html {
     margin-bottom: 1.15rem;
     cursor: default;
   }
+
   .header-subtitle {
     font-family: "Graphik LCG";
     line-height: 2rem;
@@ -1506,6 +1572,7 @@ html {
     width: 31.6875rem;
     height: 8rem;
   }
+
   .button-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -1516,10 +1583,12 @@ html {
     color: #191c1f;
     padding: 20px, 40px, 20px, 40px;
   }
+
   .guide {
     padding-top: 9.1rem;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
+
   .section-guide-title {
     width: 44.125rem;
     font-family: Graphik LCG;
@@ -1531,28 +1600,30 @@ html {
     margin-bottom: 3.8125rem;
     cursor: default;
   }
+
   .guide-list {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     column-gap: 29rem;
-
     cursor: default;
   }
+
   .guide-item {
     display: flex;
-
     width: 17.5rem;
     height: 10.25rem;
   }
+
   .guide-icon {
     width: 8rem;
     height: 11.5rem;
     margin-bottom: 1rem;
   }
+
   .guide-title {
     min-width: 263px;
     font-family: Graphik LCG;
@@ -1565,12 +1636,15 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-item:nth-child(3) {
     margin-top: 12px;
   }
+
   .guide-item:nth-child(4) {
     margin-top: 12px;
   }
+
   .guide-text {
     position: absolute;
     width: 34.5rem;
@@ -1589,7 +1663,6 @@ html {
   .thirdBlock {
     height: 37rem;
     position: relative;
-
     margin-bottom: 14.4375rem;
     display: flex;
     flex-direction: row-reverse;
@@ -1598,10 +1671,11 @@ html {
     align-content: center;
     flex-wrap: wrap;
   }
+
   .thirdBlock-photo-1 {
     position: absolute;
     margin-top: 120px;
-    right: 0px;
+    right: 0;
     width: 44rem;
     height: 33rem;
     z-index: 2;
@@ -1617,6 +1691,7 @@ html {
     z-index: 1;
     object-fit: cover;
   }
+
   .thirdBlock-contant-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -1625,9 +1700,11 @@ html {
     gap: 1.125rem;
     padding-bottom: 21rem;
   }
+
   .thirdBlock-contant {
     max-width: 45rem;
   }
+
   .thirdBlock-title {
     width: 351px;
     margin-top: 8px;
@@ -1638,6 +1715,7 @@ html {
     text-align: left;
     margin-bottom: 18px;
   }
+
   .thirdBlock-text {
     font-family: Graphik LCG;
     font-size: 2rem;
@@ -1649,6 +1727,7 @@ html {
     color: #5e646a;
     margin-bottom: 28px;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -1657,9 +1736,10 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-title {
     padding-top: 1.49rem;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5rem;
     text-align: center;
     font-family: Graphik LCG;
@@ -1670,9 +1750,11 @@ html {
     text-align: center;
     padding-right: 20px;
   }
+
   .swiper {
     height: 383px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -1680,6 +1762,7 @@ html {
     padding: 7px;
     height: 341px;
   }
+
   .reviews-slide-item {
     margin-top: 0;
     height: 83%;
@@ -1688,6 +1771,7 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .element-content {
     margin-top: -72px;
     margin-bottom: 17px;
@@ -1702,6 +1786,7 @@ html {
     flex-direction: column;
     margin-bottom: 1.25rem;
   }
+
   .reviews-slide-fio {
     margin-top: 21px;
     font-family: Graphik LCG;
@@ -1714,6 +1799,7 @@ html {
     width: 25.8125rem;
     margin-bottom: 8px;
   }
+
   .reviews-slide-city {
     font-family: Graphik LCG;
     font-size: 1.5rem;
@@ -1724,6 +1810,7 @@ html {
     margin: 0;
     color: #5e646a;
   }
+
   .reviews-slide-image {
     margin-top: 16px;
     width: 44px;
@@ -1753,6 +1840,7 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .footer-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -1763,18 +1851,21 @@ html {
     color: #191c1f;
   }
 }
+
 @media (max-width: 665px) {
   html {
     font-size: 5px;
   }
+
   .header-image {
-    background-image: url(../img/header-bg.png);
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     z-index: 0;
     height: 583px;
   }
+
   .guide-title {
     min-width: 167px;
     font-family: Graphik LCG;
@@ -1787,6 +1878,7 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-text {
     position: absolute;
     width: 34.5rem;
@@ -1801,9 +1893,11 @@ html {
     margin-top: 38px;
     margin-left: 50px;
   }
+
   .contant {
     height: 399px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -1811,6 +1905,7 @@ html {
     padding: 7px;
     height: 260px;
   }
+
   .element-content {
     margin-top: -23px;
     margin-bottom: 17px;
@@ -1819,6 +1914,7 @@ html {
     gap: 16px;
     align-items: start;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -1828,18 +1924,21 @@ html {
     width: 100%;
   }
 }
+
 @media (max-width: 500px) {
   html {
     font-size: 4px;
   }
+
   .header-image {
-    background-image: url(../img/header-bg.png);
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     z-index: 0;
     height: 462px;
   }
+
   .guide-title {
     min-width: 139px;
     font-family: Graphik LCG;
@@ -1852,6 +1951,7 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-text {
     position: absolute;
     width: 33.5rem;
@@ -1866,6 +1966,7 @@ html {
     margin-top: 38px;
     margin-left: 41px;
   }
+
   .contant {
     height: 329px;
   }
@@ -1876,6 +1977,7 @@ html {
     padding: 7px;
     height: 194px;
   }
+
   .element-content {
     margin-top: 7px;
     margin-bottom: 17px;
@@ -1884,6 +1986,7 @@ html {
     gap: 16px;
     align-items: start;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -1892,11 +1995,13 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-slide-image {
     margin-top: 19px;
     width: 24px;
     height: 24px;
   }
+
   .reviews-slide-text {
     color: #191c1f;
     width: 36.5625rem;
@@ -1908,6 +2013,7 @@ html {
     letter-spacing: 0.02em;
     text-align: left;
   }
+
   .footer {
     position: relative;
     width: 100%;
@@ -1930,6 +2036,7 @@ html {
     width: 100%;
     margin: auto;
   }
+
   .header-content {
     margin-bottom: 1.125rem;
     padding-top: 20.375rem;
@@ -1950,9 +2057,11 @@ html {
     margin-left: 2rem;
     margin-top: 5rem;
   }
+
   .header-nav {
     display: none;
   }
+
   .navbar {
     z-index: 1;
   }
@@ -1972,7 +2081,7 @@ html {
   .mobile-menu {
     position: fixed;
     top: 0;
-    right: 0px;
+    right: 0;
     bottom: 0;
     width: 375px;
     height: 100%;
@@ -1983,6 +2092,7 @@ html {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+
   .mobile-menu-nav {
     list-style: none;
     margin-left: -11px;
@@ -1990,6 +2100,7 @@ html {
     padding-bottom: 26px;
     border-bottom: 1px solid #eceff2;
   }
+
   .mobile-menu-nav-item {
     padding-bottom: 2rem;
   }
@@ -2014,6 +2125,7 @@ html {
     z-index: 0;
     height: 596px;
   }
+
   .header-image::before {
     content: "";
     position: absolute;
@@ -2038,6 +2150,7 @@ html {
     margin-bottom: 0rem;
     cursor: default;
   }
+
   .header-subtitle {
     margin-top: 12px;
     font-family: "Graphik LCG";
@@ -2062,6 +2175,7 @@ html {
     width: 31.6875rem;
     height: 8rem;
   }
+
   .button-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -2072,16 +2186,19 @@ html {
     color: #191c1f;
     padding: 20px, 40px, 20px, 40px;
   }
+
   .guide {
     margin-bottom: 89px;
     padding-top: 7rem;
   }
+
   .guide-item {
     display: flex;
     width: 17.5rem;
     height: 10.25rem;
     margin-left: 351px;
   }
+
   .guide-list {
     margin-right: 552px;
     display: flex;
@@ -2090,10 +2207,11 @@ html {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     column-gap: 29rem;
     cursor: default;
   }
+
   .guide-item:nth-child(1) {
     margin-bottom: 9px;
   }
@@ -2109,6 +2227,7 @@ html {
     margin-bottom: 0.8125rem;
     cursor: default;
   }
+
   .guide-title {
     min-width: 254px;
     font-family: Graphik LCG;
@@ -2121,6 +2240,7 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-text {
     position: absolute;
     width: 35.5rem;
@@ -2135,6 +2255,7 @@ html {
     margin-top: 46px;
     margin-left: 71px;
   }
+
   .thirdBlock {
     height: 37rem;
     position: relative;
@@ -2146,6 +2267,7 @@ html {
     align-content: center;
     flex-wrap: wrap;
   }
+
   .thirdBlock-contant-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -2166,6 +2288,7 @@ html {
     text-align: center;
     margin-bottom: -18px;
   }
+
   .thirdBlock-text {
     width: 342px;
     font-family: Graphik LCG;
@@ -2182,13 +2305,15 @@ html {
 
   .thirdBlock-photo-1 {
     position: absolute;
-    right: 0px;
+    right: 0;
     margin-bottom: 225px;
   }
+
   .thirdBlock-photo-2 {
     position: relative;
-    right: 0px;
+    right: 0;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2197,9 +2322,10 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-title {
     padding-top: 2.5rem;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 2rem;
     text-align: center;
     font-family: Graphik LCG;
@@ -2210,9 +2336,11 @@ html {
     text-align: center;
     padding-right: 3px;
   }
+
   .contant {
     height: 329px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -2220,6 +2348,7 @@ html {
     padding: 7px;
     height: 340px;
   }
+
   .element-content {
     margin-top: -9px;
     margin-bottom: 17px;
@@ -2228,6 +2357,7 @@ html {
     gap: 11px;
     align-items: start;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2236,6 +2366,7 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-slide-item {
     margin-top: 0;
     height: 83%;
@@ -2244,14 +2375,16 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .reviews-slide-image {
     margin-top: 13px;
     width: 44px;
     height: 44px;
   }
+
   .reviews-slide-text {
     color: #191c1f;
-    width: 36.5625rem;
+    width: 39.4rem;
     height: 11rem;
     font-family: Graphik LCG;
     font-size: 1.7rem;
@@ -2272,6 +2405,7 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .footer-text {
     font-size: 2.2rem;
   }
@@ -2285,6 +2419,7 @@ html {
     width: 100%;
     margin: auto;
   }
+
   .header-content {
     margin-bottom: 1.125rem;
     padding-top: 20.375rem;
@@ -2305,9 +2440,11 @@ html {
     margin-left: 2rem;
     margin-top: 5rem;
   }
+
   .header-nav {
     display: none;
   }
+
   .mobile-menu-toggle {
     position: absolute;
     width: 6rem;
@@ -2334,13 +2471,13 @@ html {
 
   .header-image {
     background-image: url("../img/header-bg.png");
-    /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
     z-index: 0;
     height: 596px;
   }
+
   .header-image::before {
     content: "";
     position: absolute;
@@ -2365,6 +2502,7 @@ html {
     margin-bottom: 0rem;
     cursor: default;
   }
+
   .header-subtitle {
     margin-top: 12px;
     font-family: "Graphik LCG";
@@ -2389,6 +2527,7 @@ html {
     width: 31.6875rem;
     height: 8rem;
   }
+
   .button-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -2399,21 +2538,25 @@ html {
     color: #191c1f;
     padding: 20px, 40px, 20px, 40px;
   }
+
   .guide {
     margin-bottom: 89px;
     padding-top: 7rem;
   }
+
   .guide-icon {
     width: 7rem;
     height: 10.5rem;
     margin-bottom: 1rem;
   }
+
   .guide-item {
     display: flex;
     width: 17.5rem;
     height: 10.25rem;
     margin-left: 351px;
   }
+
   .guide-list {
     margin-right: 552px;
     display: flex;
@@ -2422,10 +2565,11 @@ html {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     column-gap: 29rem;
     cursor: default;
   }
+
   .guide-item:nth-child(1) {
     margin-bottom: 9px;
   }
@@ -2441,6 +2585,7 @@ html {
     margin-bottom: 0.8125rem;
     cursor: default;
   }
+
   .guide-title {
     min-width: 254px;
     font-family: Graphik LCG;
@@ -2453,6 +2598,7 @@ html {
     margin-left: 10px;
     margin-bottom: 0.25rem;
   }
+
   .guide-text {
     position: absolute;
     width: 31.5rem;
@@ -2467,6 +2613,7 @@ html {
     margin-top: 46px;
     margin-left: 71px;
   }
+
   .thirdBlock {
     height: 37rem;
     position: relative;
@@ -2478,6 +2625,7 @@ html {
     align-content: center;
     flex-wrap: wrap;
   }
+
   .thirdBlock-contant-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -2498,8 +2646,9 @@ html {
     text-align: center;
     margin-bottom: -18px;
   }
+
   .thirdBlock-text {
-    margin-right: 0px;
+    margin-right: 0;
     max-width: 300px;
     padding: 2px;
     font-family: Graphik LCG;
@@ -2516,13 +2665,15 @@ html {
 
   .thirdBlock-photo-1 {
     position: absolute;
-    right: 0px;
+    right: 0;
     margin-bottom: 225px;
   }
+
   .thirdBlock-photo-2 {
     position: relative;
-    right: 0px;
+    right: 0;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2531,9 +2682,10 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-title {
     padding-top: 2.5rem;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 2rem;
     text-align: center;
     font-family: Graphik LCG;
@@ -2544,9 +2696,11 @@ html {
     text-align: center;
     padding-right: 3px;
   }
+
   .contant {
     height: 329px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -2554,6 +2708,7 @@ html {
     padding: 7px;
     height: 340px;
   }
+
   .element-content {
     margin-top: -9px;
     margin-bottom: 17px;
@@ -2562,6 +2717,7 @@ html {
     gap: 11px;
     align-items: start;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2570,6 +2726,7 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-slide-item {
     margin-top: 0;
     height: 83%;
@@ -2578,11 +2735,13 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .reviews-slide-image {
     margin-top: 13px;
     width: 44px;
     height: 44px;
   }
+
   .reviews-slide-text {
     color: #191c1f;
     width: 36.5625rem;
@@ -2606,10 +2765,12 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .footer-text {
     font-size: 2.2rem;
   }
 }
+
 @media (max-width: 320px) {
   html {
     font-size: 8px;
@@ -2619,6 +2780,7 @@ html {
     width: 100%;
     margin: auto;
   }
+
   .header-content {
     margin-bottom: 1.125rem;
     padding-top: 14.9rem;
@@ -2639,9 +2801,11 @@ html {
     margin-left: 2rem;
     margin-top: 5rem;
   }
+
   .header-nav {
     display: none;
   }
+
   .mobile-menu-toggle {
     position: absolute;
     width: 6rem;
@@ -2698,6 +2862,7 @@ html {
     margin-bottom: 0rem;
     cursor: default;
   }
+
   .header-subtitle {
     margin-top: 12px;
     font-family: "Graphik LCG";
@@ -2722,6 +2887,7 @@ html {
     width: 31.6875rem;
     height: 8rem;
   }
+
   .button-text {
     font-family: Graphik LCG;
     font-size: 2.5rem;
@@ -2732,16 +2898,19 @@ html {
     color: #191c1f;
     padding: 20px, 40px, 20px, 40px;
   }
+
   .guide {
     margin-bottom: 63px;
     padding-top: 7.5rem;
   }
+
   .guide-item {
     display: flex;
     width: 290px;
     height: 76px;
     margin-left: 50px;
   }
+
   .guide-list {
     margin-right: 62px;
     display: flex;
@@ -2750,23 +2919,28 @@ html {
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     column-gap: 29rem;
     cursor: default;
   }
+
   .guide-item:nth-child(1) {
     margin-bottom: 37px;
   }
+
   .guide-item:nth-child(2) {
     margin-bottom: 36px;
   }
+
   .guide-item:nth-child(2) .guide-text {
     margin-top: 40px;
   }
+
   .guide-item:nth-child(3) .guide-text {
     margin-top: 43px;
     width: 217px;
   }
+
   .guide-item:nth-child(4) .guide-text {
     margin-top: 46px;
     width: 224px;
@@ -2783,6 +2957,7 @@ html {
     margin-bottom: 0.8125rem;
     cursor: default;
   }
+
   .guide-title {
     min-width: 26px;
     margin-right: 3px;
@@ -2796,6 +2971,7 @@ html {
     margin-left: 16px;
     margin-bottom: 4.25rem;
   }
+
   .guide-text {
     position: absolute;
     width: 28rem;
@@ -2810,6 +2986,7 @@ html {
     margin-top: 66px;
     margin-left: 79px;
   }
+
   .thirdBlock {
     height: 47rem;
     position: relative;
@@ -2821,6 +2998,7 @@ html {
     align-content: center;
     flex-wrap: wrap;
   }
+
   .thirdBlock-contant-wrapper {
     display: flex;
     justify-content: flex-start;
@@ -2841,6 +3019,7 @@ html {
     text-align: center;
     margin-bottom: -8px;
   }
+
   .thirdBlock-text {
     width: 271px;
     font-family: Graphik LCG;
@@ -2862,12 +3041,14 @@ html {
     right: 17px;
     margin-bottom: 225px;
   }
+
   .thirdBlock-photo-2 {
     width: 255px;
     height: 214px;
     position: relative;
     right: 37px;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2876,9 +3057,10 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-title {
     padding-top: 2.5rem;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 2rem;
     text-align: center;
     font-family: Graphik LCG;
@@ -2889,9 +3071,11 @@ html {
     text-align: center;
     padding-right: 3px;
   }
+
   .contant {
     height: 329px;
   }
+
   .mySwiper {
     width: 100%;
     margin-left: 0px !important;
@@ -2900,6 +3084,7 @@ html {
     padding-bottom: 1px;
     height: 410px;
   }
+
   .element-content {
     margin-top: -80px;
     margin-bottom: 17px;
@@ -2908,6 +3093,7 @@ html {
     gap: 11px;
     align-items: start;
   }
+
   .reviews {
     position: relative;
     background: #f6f8fa;
@@ -2916,6 +3102,7 @@ html {
     left: 0;
     width: 100%;
   }
+
   .reviews-slide-item {
     margin-top: 0;
     height: 83%;
@@ -2924,11 +3111,13 @@ html {
     cursor: pointer;
     box-shadow: 0px 5px 24px 0px #0000001a;
   }
+
   .reviews-slide-image {
     margin-top: 13px;
     width: 44px;
     height: 44px;
   }
+
   .reviews-slide-text {
     margin-left: 31px;
     color: #191c1f;
@@ -2953,6 +3142,7 @@ html {
     justify-content: center;
     align-items: center;
   }
+
   .footer-text {
     font-size: 2.2rem;
   }
