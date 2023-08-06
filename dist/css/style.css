@@ -97,7 +97,7 @@ html {
 }
 
 .header-image {
-  background-image: url("/img/header-bg.png");
+  background-image: url("../img/header-bg.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1076,7 +1076,7 @@ html {
   }
 
   .header-image {
-    background-image: url("/img/header-bg.png");
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -1442,7 +1442,7 @@ html {
   }
 
   .header-image {
-    background-image: url("/img/header-bg.png");
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -1768,7 +1768,7 @@ html {
     font-size: 5px;
   }
   .header-image {
-    background-image: url(/img/header-bg.png);
+    background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -1833,7 +1833,7 @@ html {
     font-size: 4px;
   }
   .header-image {
-    background-image: url(/img/header-bg.png);
+    background-image: url(../img/header-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -2333,7 +2333,7 @@ html {
   }
 
   .header-image {
-    background-image: url("/img/header-bg.png");
+    background-image: url("../img/header-bg.png");
     /* background-size: cover; */
     background-repeat: no-repeat;
     background-position: center;
@@ -2667,7 +2667,7 @@ html {
   }
 
   .header-image {
-    background-image: url("/img/header-bg.png");
+    background-image: url("../img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
