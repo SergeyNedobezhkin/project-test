@@ -2007,7 +2007,7 @@ html {
   }
 
   .header-image {
-    background-image: url("/img/header-bg.png");
+    background-image: url("./img/header-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
