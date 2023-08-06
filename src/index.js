@@ -1,3 +1,5 @@
 "use strict";
-import script from "./modules/script";
-script();
+import miniMenu from "./modules/miniMenu";
+import slider from "./modules/slider";
+miniMenu();
+slider();

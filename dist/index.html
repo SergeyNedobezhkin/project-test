@@ -5,12 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <script src="./js/script.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <script src="./js/main.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"
+      defer
+    ></script>
+    <script src="./js/script.js" defer></script>
     <title>Test</title>
   </head>
   <body>
+    <div class="mobile-menu">
+      <ul class="mobile-menu-nav">
+        <a href="./" class="logo-link-menu">
+          <img class="logo-menu" src="./img/logo-menu.png" alt="Логотип" />
+          <div class="mobile-menu-line"></div>
+          <div class="mobile-menu-line"></div>
+        </a>
+      </ul> 
+      <ul class="mobile-submenu">
+        <li class="mobile-submenu-item">
+          <a href="#" class="mobile-submenu-link">Как это работает</a>
+          <img class="menu-arrow" src="./img/menu-arrow.png" alt="menu-arrow"/>
+        </li>
+        <li class="mobile-submenu-item">
+          <a href="#" class="mobile-submenu-link">3-й блок</a>
+           <img class="menu-arrow" src="./img/menu-arrow.png" alt="menu-arrow"/>
+        </li>
+        <li class="mobile-submenu-item">
+          <a href="#" class="mobile-submenu-link">Вопросы и ответы</a>
+          <img class="menu-arrow" src="./img/menu-arrow.png" alt="menu-arrow"/>
+        </li>
+        <li class="mobile-submenu-item">
+          <a href="#" class="mobile-submenu-link">Форма</a>
+           <img class="menu-arrow" src="./img/menu-arrow.png" alt="menu-arrow"/>
+        </li>
+      </ul>
+      <!-- <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
+      <div class="mobile-info">
+        <svg class="phone-icon" width="24" height="24">
+          <use href="./img/sprite.svg#mark"></use>
+        </svg>
+        <address class="mobile-info-address">
+          г. Мосвка, Холодильный пер. 4к1с8
+        </address>
+      </div>
+      <div class="mobile-info">
+        <svg class="phone-icon" width="24" height="24">
+          <use href="./img/sprite.svg#mail"></use>
+        </svg>
+        <a href="mailto:a.dragunov@tdaliance.ru" class="mobile-info-email">
+          a.dragunov@tdaliance.ru
+        </a> -->
+      <!-- </div> -->
+      <!-- <div class="mobile-socialNetwork">
+        <a href="#" class="mobile-vk">
+          <svg class="vk" width="24" height="24">
+            <use href="./img/sprite.svg#vk"></use>
+          </svg>
+        </a>
+        <a href="#" class="mobile-inst">
+          <svg class="vk" width="24" height="24">
+            <use href="./img/sprite.svg#inst"></use>
+          </svg>
+        </a>
+      </div> -->
+    </div>
     <nav class="navbar">
       <a href="./" class="logo-link">
         <img class="logo" src="./img/logo.svg" alt="Логотип" />
@@ -29,6 +93,11 @@
           <a href="#" class="header-nav-link">Форма</a>
         </li>
       </ul>
+      <a href="#" class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+
+        <div class="mobile-menu-line"></div>
+      </a>
     </nav>
     <header class="header header-image">
       <div class="container">
@@ -45,16 +114,16 @@
         </div>
       </div>
     </header>
-    <section class="container">
-      <div class="guide">
+    <div class="container">
+      <section class="guide">
         <div class="section-guide-title">Как это работает</div>
         <ul class="guide-list">
           <li class="guide-item">
             <img class="guide-icon" src="./img/waiting.svg" alt="задание" />
-            <h5 class="guide-title">Прочитай задание внимательно</h5>
-            <p class="guide-text">
+            <div class="guide-title">Прочитай задание внимательно</div>
+            <div class="guide-text">
               Думаю у тебя не займет это больше двух-трех минут
-            </p>
+            </div>
           </li>
           <li class="guide-item">
             <img
@@ -83,7 +152,211 @@
             </p>
           </li>
         </ul>
+      </section>
+      <section class="thirdBlock">
+        <img
+          src="./img/thirdBlockImg1.png"
+          alt="thirdBlock"
+          class="thirdBlock-photo-1"
+        />
+        <img
+          src="./img/thirdBlockImg2.png"
+          alt="thirdBlock"
+          class="thirdBlock-photo-2"
+        />
+        <div class="container">
+          <div class="thirdBlock-contant-wrapper">
+            <div class="thirdBlock-contant">
+              <h2 class="section-title thirdBlock-title">
+                Круто, ты дошел до третьего блока
+              </h2>
+              <p class="thirdBlock-text">
+                63% опрошенных пользовались кредитами из-за того, что не могли
+                покрыть непредвиденные расходы свыше 15 000 ₽.
+              </p>
+              <p class="thirdBlock-text">
+                Доступ к заработанным деньгам помогает отказаться от кредитов и
+                экономить деньги на процентах и штрафах.
+              </p>
+            </div>
+          </div>
+        <!-- </div> -->
+      </section>
+    </div>
+    <section class="reviews">
+      <div class="contant">
+        <h2 class="reviews-title">Отзывы</h2>
+        <div class="container">
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_21.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">
+                        Константинов Михаил Павлович
+                      </p>
+                      <p class="reviews-slide-city">Санкт-Петербург</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_22.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">Иван Иванов</p>
+                      <p class="reviews-slide-city">Санкт-Петербург</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы упускаем, что активно
+                    развивающиеся страны третьего мира призваны к ответу.
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_23.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">Артем Корнилов</p>
+                      <p class="reviews-slide-city">Самара</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения.
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_21.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">Артем Корнилов</p>
+                      <p class="reviews-slide-city">Самара</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения.
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_21.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">
+                        Константинов Михаил Павлович
+                      </p>
+                      <p class="reviews-slide-city">Санкт-Петербург</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_22.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">Артем Корнилов</p>
+                      <p class="reviews-slide-city">Санкт-Петербург</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения. В своём стремлении
+                    улучшить пользовательский опыт мы упускаем, что активно
+                    развивающиеся страны третьего мира призваны к ответу.
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide reviews-slide-item">
+                <div>
+                  <a href="#"></a>
+                  <div class="element-content">
+                    <img
+                      class="reviews-slide-image"
+                      src="./img/Ellipse_23.png"
+                      alt="avatar"
+                    />
+                    <div class="reviews-slide-user">
+                      <p class="reviews-slide-fio">Артем Корнилов</p>
+                      <p class="reviews-slide-city">Самара</p>
+                    </div>
+                  </div>
+                  <div class="reviews-slide-text">
+                    Каждый из нас понимает очевидную вещь: перспективное
+                    планирование предоставляет широкие возможности для анализа
+                    существующих паттернов поведения.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
       </div>
     </section>
+    <footer class="footer">
+      <div class="footer-text">&copy; 2021 Лаборатория интернет</div>
+    </footer>
   </body>
 </html>
